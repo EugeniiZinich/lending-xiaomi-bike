@@ -8,7 +8,35 @@
 
    &__list{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+
+    margin-top: 25px;
+   }
+
+   &__item  {
+    font-weight: 700;
+    text-transform: uppercase;
+    flex-basis: 160px;
+    text-align: center;
+   }
+
+   &__item-title{
+    display: block;
+    margin-bottom: 13px;
+   }
+
+   &__item-title-second{
+    display: block;
+    margin-bottom: 5px;
+   }
+
+   &__item-text{
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(15 / 12);
+    
+    text-transform: lowercase;
    }
 
    &__title{
