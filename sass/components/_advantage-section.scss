@@ -1,0 +1,29 @@
+.about{
+
+    &__inner{
+        display: flex;
+    }
+}
+
+
+
+.advantage{
+
+    margin-left: 60px;
+
+    &__item:not(:last-child){
+        margin-bottom: 50px;
+    }
+
+    &__title{
+    margin-bottom: 10px;
+
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-transform: uppercase;
+    }
+
+    &__subtitle{
+        max-width: 450px;
+    }
+}
