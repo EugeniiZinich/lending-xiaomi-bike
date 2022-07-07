@@ -216,6 +216,20 @@ a {
   background-color: var(--red-color);
 }
 
+.slider-bottom {
+  margin: 150px 0 50px;
+}
+.slider-bottom__img {
+  max-width: 1150px;
+  margin-left: 50px;
+  padding: 0;
+}
+
+.slider-bottom .slick-dots {
+  left: 0;
+  top: 0;
+}
+
 .about__inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -283,4 +297,5 @@ a {
 .characteristics__img {
   -ms-flex-item-align: center;
       align-self: center;
+  max-width: 570px;
 }/*# sourceMappingURL=main.css.map */
