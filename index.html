@@ -395,6 +395,7 @@
             </div>
         </section>
 
+        <!-- SLIDER BOTTOM SECTION -->
         <div class="container">
              <div class="slider-bottom">
             <img 
@@ -415,12 +416,81 @@
         </div>
         </div>
 
+        <!-- ORDER SECTION -->
+        <section class="order">
+            <div class="container">
+                <div class="order__inner">
+                        <form class="form">
+                            <h4 class="form__title">Заказать</h4>
+                            <p class="form__subtitle">
+                                Если Вы хотите заказать велосипед, оставьте
+                                свой контакт и наш менеджер перезвонит вам в ближайшее время
+                            </p>
+                            <div class="form__section">
+                                <input class="form__input" type="text" placeholder=" ">
+                                <label class="form__label" for="user-name">имя</label>
+                            </div>
+                            <div class="form__section">
+                                <input class="form__input" type="tel" placeholder=" ">
+                                <label class="form__label" for="user-name">телефон</label>
+                            </div>
+                            <span class="form__text">выберите желаемый цвет</span>
+
+                            <div class="form__label-box">
+                                <label class="form__label-choice">
+                                    <input class="form__input-choice" type="radio" name="color" value="gray">
+                                    <div class="form__bike">
+                                        <img 
+                                        class="form__bike-img" 
+                                        src="./images/bike-order-grey.jpg" 
+                                        alt="Фото выбраного велосипеда"
+                                        width="630">
+                                        <p class="form__bike-price">33999 грн.</p>
+                                    </div>
+                                    <div class="form__radio-style form__radio-style--gray">
+                                    </div>
+                                </label>
+
+                                <label class="form__label-choice">
+                                    <input class="form__input-choice" type="radio" name="color" value="gray" checked>
+                                    <div class="form__bike">
+                                        <img 
+                                        class="form__bike-img" 
+                                        src="./images/bike-order-white.jpg" 
+                                        alt="Фото выбраного велосипеда"
+                                        width="630">
+                                        <p class="form__bike-price">32999 грн.</p>
+                                    </div>
+                                    <div class="form__radio-style form__radio-style--white">
+
+                                    </div>
+                                </label>
+
+                                <label class="form__label-choice">
+                                    <input class="form__input-choice" type="radio" name="color" value="gray">
+                                    <div class="form__bike">
+                                        <img 
+                                        class="form__bike-img" 
+                                        src="./images/bike-order-red.jpg" 
+                                        alt="Фото выбраного велосипеда"
+                                        width="630">
+                                        <p class="form__bike-price">34999 грн.</p>
+                                    </div>
+                                    <div class="form__radio-style form__radio-style--red">
+
+                                    </div>
+                                </label>
+                            </div>
+                            <button class="form__btn" type="submit">Заказать</button>
+                        </form>
+                </div>
+            </div>
+        </section>
     </main>
     
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/slider-hero.js"></script>
-    <script src="./js/slider-bottom.js"></script>
 </body>
 </html>

@@ -1,8 +1,8 @@
 $(function () {
-    $(".bike-slider").slick({
+    $(".bike-slider, .slider-bottom").slick({
       arrows: false,
       dots: true,
-    //   fade: true,
+      fade: true,
       autoplay: true,
       autoplaySpeed: 3000,
     });
